@@ -1,0 +1,99 @@
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00fc3f;
+}
+
+html {
+  cursor: url(cursor1.png), auto;
+}
+
+a:hover {
+  cursor: url(cursor1.png), auto;
+}
+
+body{
+  background-image: url(https://images.creativemarket.com/0.1.0/ps/1307205/1160/824/m1/fpnw/wm0/computer-screen-.jpg?1464205352&s=98b9ef3feca2bdbcc4f778377af6ac98);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#title {
+  background-color: #04300f;
+  width: 50vw;
+  position: absolute;
+  top:30px;
+  left:275px;
+}
+
+@@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px
+  }
+}
+
+#portal_1 {
+  position: absolute;
+  top: 110;
+  left: 600;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#portal_1:hover {
+  opacity: 0.5;
+}
+
+#portal_2 {
+  position: absolute;
+  top: 110;
+  left: 50;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#portal_2:hover {
+  opacity: 0.5;
+}
+
+#clock {
+  width: 1vw;
+  opacity: .6;
+  position: absolute;
+  top: 210;
+  left: 630;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#clock:hover {
+  opacity: 1;
+}
+
+#SPT {
+  position: fixed;
+  right: 1;
+  bottom: 5;
+  min-width:100%;
+  min-height:100%;
+  margin-bottom: 10vh;
+  margin-right: 10vw;
+}
+
+#content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%);
+transform: translateY(-50%);
+background: rgba(0,0,0,0.5);
+color: white;
+width: 100;
+}
+
+#flag {
+  animation-name: bounce;
+  animation-duration: 3s;
+}
