@@ -1,6 +1,6 @@
 h1 {
-  font-family: 'Orbitron', sans-serif;
-  color: #00fc3f;
+  font-family: 'Pangolin', cursive;
+  color: #b809e8;
 }
 
 html {
@@ -12,17 +12,93 @@ a:hover {
 }
 
 body{
-  background-image: url(https://images.creativemarket.com/0.1.0/ps/1307205/1160/824/m1/fpnw/wm0/computer-screen-.jpg?1464205352&s=98b9ef3feca2bdbcc4f778377af6ac98);
+  background-image: url(phase_1.PNG);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+body.page2{
+  background-image: url(phase_2_blue.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page3{
+  background-image: url(phase_2_pink.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page5{
+  background-image: url(phase_3_green.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page4{
+  background-image: url(phase_3_blue.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page6{
+  background-image: url(phase_3_pink.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page7{
+  background-image: url(phase_3_yellow.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page8{
+  background-image: url(phase_4_bg.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page9{
+  background-image: url(phase_4_py.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page10{
+  background-image: url(phase_4_gp.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page11{
+  background-image: url(phase_5_blue.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page12{
+  background-image: url(phase_5_pink.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page13{
+  background-image: url(final_phase.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pleaseworkplease {
+  background-color: black;
+}
+
 #title {
-  background-color: #04300f;
+  background-color: #370645;
   width: 50vw;
   position: absolute;
   top:30px;
-  left:275px;
+  left:370px;
 }
 
 @@keyframes bounce {
@@ -37,7 +113,7 @@ body{
 #portal_1 {
   position: absolute;
   top: 110;
-  left: 600;
+  left: 975;
   transition-property: all;
   transition-duration: 1s;
 }
@@ -62,8 +138,8 @@ body{
   width: 1vw;
   opacity: .6;
   position: absolute;
-  top: 210;
-  left: 630;
+  bottom: 10;
+  right: 770;
   transition-property: all;
   transition-duration: 1s;
 }
@@ -93,7 +169,14 @@ color: white;
 width: 100;
 }
 
-#flag {
-  animation-name: bounce;
-  animation-duration: 3s;
+
+
+#restart {
+font-size: 50px;
+text-decoration: line-through;
+background-color: #b809e8;
+width: 50vw;
+position: absolute;
+top:30px;
+left:370px;
 }
